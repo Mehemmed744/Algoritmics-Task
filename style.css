@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 body{
   font-family: "Roboto", sans-serif;
-
+  margin: 0 50px;
 }
 h1{
     font-family: "Roboto Slab", serif;
@@ -13,13 +13,13 @@ h1{
     margin-left: 124px;
     margin-top: 81px;
     margin-bottom: 0;
-    font-size: 55px;
+    font-size: 66px;
     
 }
 
 .man{
- width: 290px;
- height: 302px;
+ width: 450px;
+ height: 362px;
  margin-top: auto;
 
 
@@ -29,10 +29,10 @@ h1{
   height: 59px;
 }
 p{
-  width: 662px;
-  height: 372px;
+  width: 762px;
+  height: 422px;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 28px;
 }
 article{
   width: 662px;
@@ -44,13 +44,13 @@ article{
   margin-right: auto;
 }
 .cameraman{
-  width: 350px;
-  height: 302px;
+  width: 420px;
+  height: 362px;
   margin-left: 70px;
 
   margin-right:124px;
   
-
+  margin-top: 30px;
 }
 .firstslide{
   display: flex;
@@ -63,7 +63,7 @@ article{
 }
 .editor{
   
-  height: 194px;
+  height: 224px;
   
 }
 
@@ -74,9 +74,9 @@ h2{
   font-size: 25px;
 }
 .schedule .table p{
-  width: 150px;
-  height: 39px;
-  font-size: 18px;
+  width: 200px;
+  height: 59px;
+  font-size: 22px;
   font-weight: 400;
 
 }
@@ -84,7 +84,7 @@ h2{
   display: flex;
   margin-left: 124px;
   
-  margin-top:70px;
+  margin-top:200px;
   width: 100%;;
   padding: auto;
 }
@@ -101,4 +101,151 @@ h2{
 }
 .table{
   margin-left: 110px;
+}
+@media screen and (min-width:830px) and (max-width:1400px){
+
+   h1{
+    font-family: "Roboto Slab", serif;
+   
+    font-style:bold;
+    height: 63px;
+    font-weight: 700;
+    margin-left: 90px;
+    margin-top: 61px;
+    margin-bottom: 0;
+    font-size: 40px;
+   }
+  p{
+  width: 462px;
+  height: 222px;
+  font-weight: 400;
+  font-size: 18px;
+  }
+  article{
+  width: 462px;
+  height: 255px;
+ 
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+} 
+  .cameraman{
+  width: 320px;
+  height: 242px;
+  margin-left: 50px;
+
+  margin-right:80px;
+  
+  margin-top: 30px;
+} 
+  .editor{
+  
+  display: none;
+  
+}
+
+h2{
+  width: 100px;
+  height: 29px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.schedule .table p{
+  width: 150px;
+  height: 49px;
+  font-size: 15px;
+  font-weight: 400;
+
+}
+.secondslide{
+  display: flex;
+  margin-left: -105px;
+  
+  margin-top:100px;
+  width: 80%;;
+  padding: auto;
+}
+
+}
+@media  screen and (min-width:375px) and (max-width:829px) {
+   h1{
+    font-family: "Roboto Slab", serif;
+   
+    font-style:bold;
+    height: 63px;
+    font-weight: 700;
+    margin-left: 90px;
+    margin-top: 61px;
+    margin-bottom: 0;
+    font-size: 40px;
+   }
+   .firstslide{
+    display:flex;
+    flex-direction: column;
+    gap:20px
+    
+}
+  p{
+  width: 462px;
+  height: 222px;
+  font-weight: 400;
+  font-size: 18px;
+  }
+  article{
+  width: 462px;
+  height: 255px;
+ 
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+} 
+  .cameraman{
+  width: 320px;
+  height: 242px;
+  margin-left: 50px;
+
+  margin-right:80px;
+  
+  margin-top: 30px;
+} 
+  .editor{
+  
+  display: none;
+  
+}
+
+
+h2{
+  width: 100px;
+  height: 29px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.schedule .table p{
+  width: 150px;
+  height: 49px;
+  font-size: 15px;
+  font-weight: 400;
+
+}
+.secondslide{
+  display: flex;
+  margin-left: -105px;
+  
+  margin-top:100px;
+  width: 80%;;
+  padding: auto;
+}
+.schedule{
+  
+  width: 60%;
+  margin-left: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
 }
